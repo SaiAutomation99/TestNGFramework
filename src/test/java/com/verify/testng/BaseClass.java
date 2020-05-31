@@ -13,7 +13,7 @@ public class BaseClass {
 	
 	public BaseClass() {
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
-		System.setProperty("webdriver.chrome.driver", "D:\\drivers\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\drivers\\chromedriver_win32\\chromedriver_latest.exe");
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
