@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <groups>
-    <run>
-      <include name="groupname1"/>
-    </run>
-  </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Groups.Groups_Practise"/>
+      <class name="MethodInclude_Exclude.Method_Include_Exclude">
+        <methods>
+          <include name="m1"/>
+          <include name="m2"/>
+        </methods>
+      </class> <!-- MethodInclude_Exclude.Method_Include_Exclude -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->
