@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="MethodInclude_Exclude.Method_Include_Exclude">
+      <class name="ExpectedException.ExpectedExceptions"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ExpectedException.ExpectedExceptions">
         <methods>
           <include name="m1"/>
-          <include name="m2"/>
         </methods>
-      </class> <!-- MethodInclude_Exclude.Method_Include_Exclude -->
+      </class> <!-- ExpectedException.ExpectedExceptions -->
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
