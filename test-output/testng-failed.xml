@@ -6,4 +6,15 @@
       <class name="WebSiteDemo.WebSiteDemo"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="WebSiteDemo.WebSiteDemo">
+        <methods>
+          <include name="preempitives"/>
+          <include name="testCase"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- WebSiteDemo.WebSiteDemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
