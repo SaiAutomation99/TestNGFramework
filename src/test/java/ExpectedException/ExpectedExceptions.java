@@ -13,5 +13,4 @@ public class ExpectedExceptions {
 		throw new ArithmeticException();
 		
 	}
-
 }
