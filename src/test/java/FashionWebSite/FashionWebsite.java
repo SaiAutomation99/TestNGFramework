@@ -16,7 +16,6 @@ public class FashionWebsite {
 	@Test
 	public void fashion() {
 		
-		
 		System.setProperty("webdriver.chrome.driver", "D:\\drivers\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
