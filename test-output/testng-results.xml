@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77" started-at="2020-07-07T07:36:03Z" finished-at="2020-07-07T07:36:03Z">
+  <suite name="Default suite" duration-ms="27511" started-at="2020-07-16T11:46:10Z" finished-at="2020-07-16T11:46:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77" started-at="2020-07-07T07:36:03Z" finished-at="2020-07-07T07:36:03Z">
-      <class name="SeleniumPractise.CalenderClass">
-        <test-method status="PASS" signature="calenderClass()[pri:0, instance:SeleniumPractise.CalenderClass@548e7350]" name="calenderClass" duration-ms="59" started-at="2020-07-07T13:06:03Z" finished-at="2020-07-07T13:06:03Z">
+    <test name="Default test" duration-ms="27511" started-at="2020-07-16T11:46:10Z" finished-at="2020-07-16T11:46:37Z">
+      <class name="Flipkart.FlipkartDemo">
+        <test-method status="PASS" signature="flipkartDemo()[pri:0, instance:Flipkart.FlipkartDemo@6eebc39e]" name="flipkartDemo" duration-ms="27490" started-at="2020-07-16T17:16:10Z" finished-at="2020-07-16T17:16:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- calenderClass -->
-      </class> <!-- SeleniumPractise.CalenderClass -->
+        </test-method> <!-- flipkartDemo -->
+      </class> <!-- Flipkart.FlipkartDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
