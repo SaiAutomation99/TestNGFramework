@@ -94,6 +94,23 @@ public class SeleniumDemo_1 {
 //		return driver.findElement(path);
 //}
 	
-	
-		
+			public void commonMethod(By path1,String value,String name) {
+				
+				
+				switch (value) {
+				case "name":
+					Select select=new Select(driver.findElement(path1));
+					select.selectByVisibleText(value);
+
+					break;
+					
+				case "value":
+					Select select1=new Select(driver.findElement(path1));
+					select1.selectByIndex(Integer.parseInt(name));
+					break;
+
+				default:
+					break;
+				}	
+			}
 }
