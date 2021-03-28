@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27511" started-at="2020-07-16T11:46:10Z" finished-at="2020-07-16T11:46:37Z">
+  <suite started-at="2021-03-28T11:55:14Z" name="Default suite" finished-at="2021-03-28T11:55:29Z" duration-ms="14994">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27511" started-at="2020-07-16T11:46:10Z" finished-at="2020-07-16T11:46:37Z">
-      <class name="Flipkart.FlipkartDemo">
-        <test-method status="PASS" signature="flipkartDemo()[pri:0, instance:Flipkart.FlipkartDemo@6eebc39e]" name="flipkartDemo" duration-ms="27490" started-at="2020-07-16T17:16:10Z" finished-at="2020-07-16T17:16:37Z">
+    <test started-at="2021-03-28T11:55:14Z" name="Default test" finished-at="2021-03-28T11:55:29Z" duration-ms="14994">
+      <class name="PractiseSelenium.SeleniumDemo_1">
+        <test-method signature="websiteTest()[pri:0, instance:PractiseSelenium.SeleniumDemo_1@63eef88a]" started-at="2021-03-28T17:25:14Z" name="websiteTest" finished-at="2021-03-28T17:25:29Z" duration-ms="14976" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- flipkartDemo -->
-      </class> <!-- Flipkart.FlipkartDemo -->
+        </test-method> <!-- websiteTest -->
+      </class> <!-- PractiseSelenium.SeleniumDemo_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
