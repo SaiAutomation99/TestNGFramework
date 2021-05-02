@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-28T11:55:14Z" name="Default suite" finished-at="2021-03-28T11:55:29Z" duration-ms="14994">
+  <suite started-at="2021-05-02T15:40:11Z" name="Default suite" finished-at="2021-05-02T15:40:22Z" duration-ms="10488">
     <groups>
     </groups>
-    <test started-at="2021-03-28T11:55:14Z" name="Default test" finished-at="2021-03-28T11:55:29Z" duration-ms="14994">
-      <class name="PractiseSelenium.SeleniumDemo_1">
-        <test-method signature="websiteTest()[pri:0, instance:PractiseSelenium.SeleniumDemo_1@63eef88a]" started-at="2021-03-28T17:25:14Z" name="websiteTest" finished-at="2021-03-28T17:25:29Z" duration-ms="14976" status="PASS">
+    <test started-at="2021-05-02T15:40:11Z" name="Default test" finished-at="2021-05-02T15:40:22Z" duration-ms="10488">
+      <class name="ITSConcept.ITSClass">
+        <test-method signature="testIts()[pri:0, instance:ITSConcept.ITSClass@5e3d57c7]" started-at="2021-05-02T21:10:11Z" name="testIts" finished-at="2021-05-02T21:10:22Z" duration-ms="10471" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- websiteTest -->
-      </class> <!-- PractiseSelenium.SeleniumDemo_1 -->
+        </test-method> <!-- testIts -->
+      </class> <!-- ITSConcept.ITSClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
