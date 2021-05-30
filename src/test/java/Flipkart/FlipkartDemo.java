@@ -13,7 +13,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class FlipkartDemo {
+import BaseClass.DriverIntialization;
+
+public class FlipkartDemo extends DriverIntialization{
 	
 	
 	
@@ -21,10 +23,10 @@ public class FlipkartDemo {
 	public void flipkartDemo() {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\drivers\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "D:\\Documents\\SaiPrasanth\\DATAD_sai\\drivers\\chromedriver_win32\\chromedriver.exe");
 		
 		
-		WebDriver driver=new ChromeDriver();
+		// driver=new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

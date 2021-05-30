@@ -32,5 +32,19 @@ public class ITSClass {
 			
 			System.out.println("set edit code");
 		}
+		String name="hello";
+		
+		if(name.contains("hello")) {
+			
+			System.out.println("hello man");
+		}
+		boolean b=name.contains("hello");
+		if(b) {
+			System.out.println(b);
+		}
+		System.out.println("hello man");
+		char c=name.charAt(0);
+		System.out.println(c);
+		sc.close();	
 	}
 }
